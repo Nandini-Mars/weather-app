@@ -45,6 +45,12 @@ const WeatherDisplay = ({ city }) => {
         <div className="weather-cards">
           <div className="card">
             <WeatherCard
+              title="Temperature"
+              data={`${weatherData.current.temp_c}°C`}
+            />
+          </div>
+          <div className="card">
+            <WeatherCard
               title="Humidity"
               data={`${weatherData.current.humidity}%`}
             />

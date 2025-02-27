@@ -2,9 +2,6 @@
     display: flex;
     gap: 20px; /* Adjust spacing between cards */
     justify-content: center;
-  }
-  
-  .card {
     border: 1px solid #ccc;
     padding: 10px;
     border-radius: 8px;

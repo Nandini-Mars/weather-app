@@ -26,6 +26,7 @@ const WeatherDisplay = ({ city }) => {
           },
         })
         .then((response) => {
+          console.log("Weather data fetched: ", response.data); 
           setWeatherData(response.data);
         })
         .catch((error) => {

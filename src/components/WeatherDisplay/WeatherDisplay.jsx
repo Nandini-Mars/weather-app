@@ -43,30 +43,27 @@ const WeatherDisplay = ({ city }) => {
       {loading && <p>Loading data...</p>}
       {!loading && weatherData && (
         <div className="weather-cards">
-          <div className="card">
+
             <WeatherCard
               title="Temperature"
               data={`${weatherData.current.temp_c}°C`}
             />
-          </div>
-          <div className="card">
+
             <WeatherCard
               title="Humidity"
               data={`${weatherData.current.humidity}%`}
             />
-          </div>
-          <div className="card">
+
             <WeatherCard
               title="Condition"
               data={weatherData.current.condition.text}
             />
-          </div>
-          <div className="card">
+
             <WeatherCard
               title="Wind Speed"
               data={`${weatherData.current.wind_kph} kph`}
             />
-          </div>
+            
         </div>
       )}
     </div>

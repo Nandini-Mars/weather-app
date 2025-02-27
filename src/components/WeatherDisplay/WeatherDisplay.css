@@ -1,10 +1,17 @@
 .weather-cards {
+  padding: 10px;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  }
+
+  .weather-card {
     display: flex;
-    gap: 20px; /* Adjust spacing between cards */
-    justify-content: center;
     border: 1px solid #ccc;
     padding: 10px;
-    border-radius: 8px;
-    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 20px; /* Adjust spacing between cards */
+    justify-content: space-between;
   }
-  
+

@@ -3,15 +3,16 @@
   text-align: center;
   margin-left: 200px;
   margin-right: 200px;
+  display: flex;
+  justify-content: space-between;
   }
 
   .weather-card {
-    display: flex;
     border: 1px solid #ccc;
     padding: 10px;
     margin-left: 100px;
     margin-right: 100px;
     gap: 20px; /* Adjust spacing between cards */
-    justify-content: space-between;
+
   }
 

@@ -5,7 +5,7 @@
   margin-right: 200px;
   }
 
-  .weather-cards {
+  .weather-card {
     display: flex;
     border: 1px solid #ccc;
     padding: 10px;

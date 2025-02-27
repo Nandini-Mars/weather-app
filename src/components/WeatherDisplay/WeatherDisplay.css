@@ -1,11 +1,11 @@
-.weather-cards {
+.weather-display {
   padding: 10px;
   text-align: center;
   margin-left: 200px;
   margin-right: 200px;
   }
 
-  .weather-card {
+  .weather-cards {
     display: flex;
     border: 1px solid #ccc;
     padding: 10px;
